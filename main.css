@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.5s;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#titulo {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-variant: small-caps;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+#barraLateral {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: darkslateblue;
+}
+
+#detalles {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputsP {
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#inputNumLados {
+    width: 80%;
+}
+
+#inputLongitud {
+    width: 42%;
+}
+
+#btnAceptar {
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkgreen;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+#btnAceptar:hover {
+    background-color: forestgreen;
+}
+
+#camposIngresoCargas {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.inputsCargas {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+}
+
+.btnAceptarCargas {
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkgreen;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.btnAceptarCargas:hover {
+    background-color: forestgreen;
+}
